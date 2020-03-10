@@ -5,7 +5,8 @@ function App() {
     <div className="main">
       <h1>Track Your Order</h1>
       <form className = 'order-form'>
-        <input type='text'></input>
+        <label>kjsnf</label>
+        <input type='text' placeholder = 'insert your tracking number'></input>
       </form>
     </div>
   );
