@@ -2,9 +2,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="">
+    <div className="main">
       <h1>Track Your Order</h1>
-      <form>
+      <form className = 'order-form'>
         <input type='text'></input>
       </form>
     </div>
