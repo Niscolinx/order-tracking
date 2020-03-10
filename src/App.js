@@ -7,7 +7,6 @@ function App() {
       <p>Hello world, let's build something amazing</p>
       <p>Hello world, let's build something amazing</p>
       <p>Hello world, let's build something amazing</p>
-      <p>Hello world, let's build something amazing</p>
       <form>
         <input type='text'></input>
       </form>
