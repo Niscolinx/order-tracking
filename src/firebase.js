@@ -1,12 +1,5 @@
-< !--The core Firebase JS SDK is always required and must be listed first-- >
-    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+import * as firebase from 'firebase/app'
 
-    <!--TODO: Add SDKs for Firebase products that you want to use
-https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
-
-    <script>
-        // Your web app's Firebase configuration
         var firebaseConfig = {
             apiKey: "AIzaSyDG-HnTjiQVfgQ42dxkslbXaBoYSBfpEJg",
         authDomain: "order-tracking-cca8a.firebaseapp.com",
@@ -20,4 +13,3 @@ https://firebase.google.com/docs/web/setup#available-libraries -->
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
-</script>
