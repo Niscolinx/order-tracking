@@ -12,7 +12,6 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-fireba
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
