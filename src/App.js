@@ -14,7 +14,6 @@ function App() {
       <h1>Track Your Order</h1>
       <h1>Track Your Order</h1>
       <h1>Track Your Order</h1>
-      <h1>Track Your Order</h1>
       <form className = 'order-form'>
         <input type='text' placeholder = 'tracking number'></input>
         <button>Check</button>
