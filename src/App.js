@@ -13,7 +13,7 @@ class App extends Component {
     this.setState({
       trackingValue: e.target.value
     })
-    console.log(this.trackingValue)
+    console.log(this.state.trackingValue)
   }
   render() {
 
@@ -27,7 +27,7 @@ class App extends Component {
            onChange={e => this.onChangeTrackingVal(e)}>
 
            </input>
-          <button>Check</button>
+          <button >Check</button>
         </form>
       </div>
     );
