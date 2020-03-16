@@ -15,7 +15,10 @@ class App extends Component {
     console.log(this.state.trackingValue)
   }
 
-  
+  submitTracking = (e) => {
+   e.preventDefault()
+
+  }
   render() {
 
 
