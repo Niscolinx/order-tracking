@@ -3,9 +3,12 @@ import * as firebase from 'firebase/app'
 
 class App extends Component {
 
-  render() {
+  state = {
+    trackingValue : ''
+  }
 
-    
+  render() {
+ 
     
     return (
       <div className="main">
