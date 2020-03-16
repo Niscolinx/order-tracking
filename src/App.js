@@ -7,8 +7,12 @@ class App extends Component {
     trackingValue: ''
   }
 
-  onChangeTrackingVal = (e) => {
-    e.preventDefault
+  onChangeTrackingVal = e => {
+    e.preventDefault()
+
+    this.setState({
+      trackingValue: e.target.value
+    })
   }
   render() {
 
