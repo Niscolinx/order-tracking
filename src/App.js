@@ -8,13 +8,14 @@ class App extends Component {
   }
 
   onChangeTrackingVal = e => {
-    e.preventDefault()
 
     this.setState({
       trackingValue: e.target.value
     })
     console.log(this.state.trackingValue)
   }
+
+  
   render() {
 
 
@@ -23,11 +24,11 @@ class App extends Component {
         <h1>Track Your Order</h1>
         <form className='order-form'>
           <input type='text' placeholder='tracking number'
-           value={this.state.trackingValue}
-           onChange={e => this.onChangeTrackingVal(e)}>
+            value={this.state.trackingValue}
+            onChange={e => this.onChangeTrackingVal(e)}>
 
-           </input>
-          <button className = 'submit-btn'>Check</button>
+          </input>
+          <button className='submit-btn' onSubmit={this.submitTracking}>Check</button>
         </form>
       </div>
     );
