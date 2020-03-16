@@ -13,6 +13,7 @@ class App extends Component {
     this.setState({
       trackingValue: e.target.value
     })
+    console.log(this.trackingValue)
   }
   render() {
 
