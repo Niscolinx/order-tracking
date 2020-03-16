@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 import * as firebase from 'firebase/app'
 
-function App() {
+const App extend Component() {
 
   console.log(firebase.database())
   return (
