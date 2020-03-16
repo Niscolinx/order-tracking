@@ -14,7 +14,7 @@ class App extends Component {
       <div className="main">
         <h1>Track Your Order</h1>
         <form className='order-form'>
-          <input type='text' placeholder='tracking number'></input>
+          <input type='text' placeholder='tracking number' value = {this.state.trackingValue}></input>
           <button>Check</button>
         </form>
       </div>
