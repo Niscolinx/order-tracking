@@ -27,7 +27,7 @@ class App extends Component {
            onChange={e => this.onChangeTrackingVal(e)}>
 
            </input>
-          <button >Check</button>
+          <button className = 'submit-btn'>Check</button>
         </form>
       </div>
     );
